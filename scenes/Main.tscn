@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b1itgghgg86h0"]
+
+[ext_resource type="Script" uid="uid://kcytndtnvk2x" path="res://scripts/new_game.gd" id="1_0bbpv"]
+[ext_resource type="PackedScene" uid="uid://de4hygoquviuw" path="res://scenes/characters/ladron.tscn" id="2_rarhs"]
+[ext_resource type="PackedScene" uid="uid://breaa3ck3spa6" path="res://scenes/level1.tscn" id="2_vcsgt"]
+[ext_resource type="PackedScene" uid="uid://8jfmydu4k7g6" path="res://scenes/characters/guarda.tscn" id="3_vcsgt"]
+
+[node name="Main" type="Node2D" unique_id=1966021325]
+script = ExtResource("1_0bbpv")
+
+[node name="Level1" parent="." unique_id=637411789 instance=ExtResource("2_vcsgt")]
+
+[node name="guarda" parent="Level1" unique_id=861206775 instance=ExtResource("3_vcsgt")]
+position = Vector2(240, 86)
+
+[node name="ladron" parent="Level1" unique_id=581063868 instance=ExtResource("2_rarhs")]
+position = Vector2(151, 74)
