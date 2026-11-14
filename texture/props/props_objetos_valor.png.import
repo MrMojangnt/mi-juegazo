@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcofx2jqxr4cs"
-path="res://.godot/imported/ventana.png-24a8f26c81ce563f1d5e006e65902e1a.ctex"
+uid="uid://beb2a8pq472y3"
+path="res://.godot/imported/props_objetos_valor.png-21fb8ae1c493612c017cc140347cd480.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/tilesets/ventana.png"
-dest_files=["res://.godot/imported/ventana.png-24a8f26c81ce563f1d5e006e65902e1a.ctex"]
+source_file="res://texture/props/props_objetos_valor.png"
+dest_files=["res://.godot/imported/props_objetos_valor.png-21fb8ae1c493612c017cc140347cd480.ctex"]
 
 [params]
 

@@ -1,3 +1,104 @@
 [gd_scene format=3 uid="uid://de4hygoquviuw"]
 
-[node name="Personaje" type="Node3D" unique_id=1259490425]
+[ext_resource type="Script" uid="uid://5yx04hvhorj2" path="res://scripts/ladrón.gd" id="1_ho3dl"]
+[ext_resource type="Texture2D" uid="uid://ckycwi2hrm2f4" path="res://texture/characters/ladron/frames/down_0.png" id="2_vylx4"]
+[ext_resource type="Texture2D" uid="uid://b81nlqq2txpqb" path="res://texture/characters/ladron/frames/down_1.png" id="3_ccsra"]
+[ext_resource type="Texture2D" uid="uid://c3d634l7vj5yy" path="res://texture/characters/ladron/frames/down_2.png" id="4_514qs"]
+[ext_resource type="Texture2D" uid="uid://dl1ncdgtjs7sx" path="res://texture/characters/ladron/frames/left_0.png" id="5_sydpl"]
+[ext_resource type="Texture2D" uid="uid://0xkm3gtpitjj" path="res://texture/characters/ladron/frames/left_1.png" id="6_lpi6p"]
+[ext_resource type="Texture2D" uid="uid://djc7nt8fk4n2b" path="res://texture/characters/ladron/frames/left_2.png" id="7_tb50b"]
+[ext_resource type="Texture2D" uid="uid://dxkruf2ppx82m" path="res://texture/characters/ladron/frames/right_0.png" id="8_n2v0w"]
+[ext_resource type="Texture2D" uid="uid://sbohv11bs6uy" path="res://texture/characters/ladron/frames/right_1.png" id="9_q3csd"]
+[ext_resource type="Texture2D" uid="uid://d1f8a05b1qjmd" path="res://texture/characters/ladron/frames/right_2.png" id="10_b5rwa"]
+[ext_resource type="Texture2D" uid="uid://csx7h66wd6k31" path="res://texture/characters/ladron/frames/up_0.png" id="11_t0idm"]
+[ext_resource type="Texture2D" uid="uid://bvfech2o08jd7" path="res://texture/characters/ladron/frames/up_1.png" id="12_dsu68"]
+[ext_resource type="Texture2D" uid="uid://dvls882s5wibx" path="res://texture/characters/ladron/frames/up_2.png" id="13_ggfgw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5fmgk"]
+size = Vector2(13, 18)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cn6t8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_vylx4")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_vylx4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_ccsra")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_514qs")
+}],
+"loop": 1,
+"name": &"down",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_sydpl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_lpi6p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_tb50b")
+}],
+"loop": 1,
+"name": &"left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_n2v0w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_q3csd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_b5rwa")
+}],
+"loop": 1,
+"name": &"right",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_t0idm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_dsu68")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_ggfgw")
+}],
+"loop": 1,
+"name": &"up",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="Node2D" unique_id=581063868]
+position = Vector2(227, 43)
+
+[node name="Ladrón" type="CharacterBody2D" parent="." unique_id=787682368]
+position = Vector2(1, 14)
+up_direction = Vector2(0, 1)
+script = ExtResource("1_ho3dl")
+speed = 200
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ladrón" unique_id=450287889]
+position = Vector2(-0.5, 0)
+shape = SubResource("RectangleShape2D_5fmgk")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Ladrón" unique_id=2101022798]
+position = Vector2(-0.5, 0)
+scale = Vector2(1.0555556, 1)
+sprite_frames = SubResource("SpriteFrames_cn6t8")
+frame_progress = 0.4907156

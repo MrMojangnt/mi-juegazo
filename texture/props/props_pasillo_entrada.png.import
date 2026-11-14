@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjep7ekkfx67p"
-path="res://.godot/imported/planta.png-0de2d54b6233611d635303fd149bb322.ctex"
+uid="uid://d2ipy51f86tmp"
+path="res://.godot/imported/props_pasillo_entrada.png-fa7ef07a01b7ee44b6bbf594d4af957e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/objects/planta.png"
-dest_files=["res://.godot/imported/planta.png-0de2d54b6233611d635303fd149bb322.ctex"]
+source_file="res://texture/props/props_pasillo_entrada.png"
+dest_files=["res://.godot/imported/props_pasillo_entrada.png-fa7ef07a01b7ee44b6bbf594d4af957e.ctex"]
 
 [params]
 

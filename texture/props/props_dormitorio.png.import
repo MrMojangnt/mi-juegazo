@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dlt120oeec0fo"
-path="res://.godot/imported/piso_madera.png-16c9435075f29d0f181b58302b77108f.ctex"
+uid="uid://c61fq60xbc2qh"
+path="res://.godot/imported/props_dormitorio.png-febbe1b37edb1d2282c0c604cca130a8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/tilesets/piso_madera.png"
-dest_files=["res://.godot/imported/piso_madera.png-16c9435075f29d0f181b58302b77108f.ctex"]
+source_file="res://texture/props/props_dormitorio.png"
+dest_files=["res://.godot/imported/props_dormitorio.png-febbe1b37edb1d2282c0c604cca130a8.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cye6cc2b1ecou"
-path="res://.godot/imported/pared_tope.png-01554ff7e75596a49a231e337d3055fa.ctex"
+uid="uid://c7rcfyvjxkh2a"
+path="res://.godot/imported/demo_sala_noche.png-02dca1eebeb26604420f685de102704d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/tilesets/pared_tope.png"
-dest_files=["res://.godot/imported/pared_tope.png-01554ff7e75596a49a231e337d3055fa.ctex"]
+source_file="res://texture/demo_sala_noche.png"
+dest_files=["res://.godot/imported/demo_sala_noche.png-02dca1eebeb26604420f685de102704d.ctex"]
 
 [params]
 

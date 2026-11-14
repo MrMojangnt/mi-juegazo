@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b6rwir4htktap"
-path="res://.godot/imported/mesa.png-d0e7804c5c63cefbb185553d60f38acb.ctex"
+uid="uid://crbe13lxnlew4"
+path="res://.godot/imported/props_patio.png-b1e85f2b1b47981e89db9cbc1b09c78b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/objects/mesa.png"
-dest_files=["res://.godot/imported/mesa.png-d0e7804c5c63cefbb185553d60f38acb.ctex"]
+source_file="res://texture/props/props_patio.png"
+dest_files=["res://.godot/imported/props_patio.png-b1e85f2b1b47981e89db9cbc1b09c78b.ctex"]
 
 [params]
 

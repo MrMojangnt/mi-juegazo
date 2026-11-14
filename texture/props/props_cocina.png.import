@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xmaub0fnf8st"
-path="res://.godot/imported/biblioteca.png-4b570d4a030bc0651df14d6daf729738.ctex"
+uid="uid://cq878e40gboan"
+path="res://.godot/imported/props_cocina.png-62ebade83bb5101c6cee16ecbb1860a3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/objects/biblioteca.png"
-dest_files=["res://.godot/imported/biblioteca.png-4b570d4a030bc0651df14d6daf729738.ctex"]
+source_file="res://texture/props/props_cocina.png"
+dest_files=["res://.godot/imported/props_cocina.png-62ebade83bb5101c6cee16ecbb1860a3.ctex"]
 
 [params]
 

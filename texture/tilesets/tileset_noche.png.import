@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cth71o8yuh0t8"
-path="res://.godot/imported/puerta_abierta.png-826651f6dd4ca6b23d02d6839f5bcb92.ctex"
+uid="uid://dxbus33lle2bl"
+path="res://.godot/imported/tileset_noche.png-8b7e4cac87cae9e1956e3f38afc6c04d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/tilesets/puerta_abierta.png"
-dest_files=["res://.godot/imported/puerta_abierta.png-826651f6dd4ca6b23d02d6839f5bcb92.ctex"]
+source_file="res://texture/tilesets/tileset_noche.png"
+dest_files=["res://.godot/imported/tileset_noche.png-8b7e4cac87cae9e1956e3f38afc6c04d.ctex"]
 
 [params]
 

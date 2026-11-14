@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cndo0dxf73eiy"
-path="res://.godot/imported/pared_frente.png-c9685b9df475a2661da3b5b8e50c2255.ctex"
+uid="uid://dbu2a6dkh2r3a"
+path="res://.godot/imported/props_sala.png-e983054c10b0e29d53c38ed870b0828f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/tilesets/pared_frente.png"
-dest_files=["res://.godot/imported/pared_frente.png-c9685b9df475a2661da3b5b8e50c2255.ctex"]
+source_file="res://texture/props/props_sala.png"
+dest_files=["res://.godot/imported/props_sala.png-e983054c10b0e29d53c38ed870b0828f.ctex"]
 
 [params]
 
