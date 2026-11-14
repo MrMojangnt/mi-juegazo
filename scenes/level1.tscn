@@ -1,0 +1,54 @@
+[gd_scene format=3 uid="uid://breaa3ck3spa6"]
+
+[ext_resource type="Texture2D" uid="uid://btt5pds6vmp4j" path="res://texture/tilesets/alfombra_roja.png" id="1_conm7"]
+[ext_resource type="Texture2D" uid="uid://cndo0dxf73eiy" path="res://texture/tilesets/pared_frente.png" id="2_d3jkd"]
+[ext_resource type="Texture2D" uid="uid://cye6cc2b1ecou" path="res://texture/tilesets/pared_tope.png" id="3_u3awl"]
+[ext_resource type="Texture2D" uid="uid://dlt120oeec0fo" path="res://texture/tilesets/piso_madera.png" id="4_2ku1j"]
+[ext_resource type="Texture2D" uid="uid://c4kh06038ra1e" path="res://texture/tilesets/piso_marmol.png" id="5_f31uk"]
+[ext_resource type="Texture2D" uid="uid://cth71o8yuh0t8" path="res://texture/tilesets/puerta_abierta.png" id="6_gnai3"]
+[ext_resource type="Texture2D" uid="uid://c817roe6nu61u" path="res://texture/tilesets/puerta_cerrada.png" id="7_i8kv5"]
+[ext_resource type="Texture2D" uid="uid://cekqyewm6u307" path="res://texture/tilesets/puerta_salida.png" id="8_dxn3v"]
+[ext_resource type="Texture2D" uid="uid://bcofx2jqxr4cs" path="res://texture/tilesets/ventana.png" id="9_14jow"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mvsps"]
+texture = ExtResource("1_conm7")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jvkml"]
+texture = ExtResource("2_d3jkd")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3w4mx"]
+texture = ExtResource("3_u3awl")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u068y"]
+texture = ExtResource("4_2ku1j")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1ooyw"]
+texture = ExtResource("5_f31uk")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ai3nx"]
+texture = ExtResource("6_gnai3")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_phfsf"]
+texture = ExtResource("7_i8kv5")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3oqy1"]
+texture = ExtResource("8_dxn3v")
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mq0oc"]
+texture = ExtResource("9_14jow")
+
+[sub_resource type="TileSet" id="TileSet_g2h75"]
+sources/0 = SubResource("TileSetAtlasSource_mvsps")
+sources/1 = SubResource("TileSetAtlasSource_jvkml")
+sources/2 = SubResource("TileSetAtlasSource_3w4mx")
+sources/3 = SubResource("TileSetAtlasSource_u068y")
+sources/4 = SubResource("TileSetAtlasSource_1ooyw")
+sources/5 = SubResource("TileSetAtlasSource_ai3nx")
+sources/6 = SubResource("TileSetAtlasSource_phfsf")
+sources/7 = SubResource("TileSetAtlasSource_3oqy1")
+sources/8 = SubResource("TileSetAtlasSource_mq0oc")
+
+[node name="Level1" type="Node2D" unique_id=637411789]
+
+[node name="Sala" type="TileMapLayer" parent="." unique_id=179454799]
+tile_set = SubResource("TileSet_g2h75")
