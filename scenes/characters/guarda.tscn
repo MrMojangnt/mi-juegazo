@@ -1,17 +1,18 @@
 [gd_scene format=3 uid="uid://8jfmydu4k7g6"]
 
-[ext_resource type="Texture2D" uid="uid://ciuqdwbbip6th" path="res://texture/characters/guardia/frames/right_0.png" id="2_a2pm1"]
-[ext_resource type="Texture2D" uid="uid://bu4fpgkwee5yl" path="res://texture/characters/guardia/frames/down_0.png" id="3_aw65i"]
-[ext_resource type="Texture2D" uid="uid://bipx82iuqfib5" path="res://texture/characters/guardia/frames/down_1.png" id="4_bupdq"]
-[ext_resource type="Texture2D" uid="uid://c411byxbug1io" path="res://texture/characters/guardia/frames/down_2.png" id="5_gr3em"]
-[ext_resource type="Texture2D" uid="uid://kfnwsbr3kwj3" path="res://texture/characters/guardia/frames/left_0.png" id="6_28w6j"]
-[ext_resource type="Texture2D" uid="uid://bgonkybrdp7n3" path="res://texture/characters/guardia/frames/left_1.png" id="7_wcqrw"]
-[ext_resource type="Texture2D" uid="uid://bbkhap4vtbx1e" path="res://texture/characters/guardia/frames/left_2.png" id="8_4ot2g"]
-[ext_resource type="Texture2D" uid="uid://bn7cehen1to1d" path="res://texture/characters/guardia/frames/right_1.png" id="9_kw1q1"]
-[ext_resource type="Texture2D" uid="uid://us6khoxnlw6l" path="res://texture/characters/guardia/frames/right_2.png" id="10_ufcxk"]
-[ext_resource type="Texture2D" uid="uid://csntl68152mxx" path="res://texture/characters/guardia/frames/up_0.png" id="11_h1x2v"]
-[ext_resource type="Texture2D" uid="uid://dio557hlk6l0a" path="res://texture/characters/guardia/frames/up_1.png" id="12_i600t"]
-[ext_resource type="Texture2D" uid="uid://cvd4u587iix1d" path="res://texture/characters/guardia/frames/up_2.png" id="13_y5673"]
+[ext_resource type="Script" uid="uid://bnbfk4bi02iyr" path="res://scripts/guarda.gd" id="1_3gp2t"]
+[ext_resource type="Texture2D" uid="uid://ciuqdwbbip6th" path="res://assets/texture/characters/guardia/frames/right_0.png" id="2_a2pm1"]
+[ext_resource type="Texture2D" uid="uid://bu4fpgkwee5yl" path="res://assets/texture/characters/guardia/frames/down_0.png" id="3_aw65i"]
+[ext_resource type="Texture2D" uid="uid://bipx82iuqfib5" path="res://assets/texture/characters/guardia/frames/down_1.png" id="4_bupdq"]
+[ext_resource type="Texture2D" uid="uid://c411byxbug1io" path="res://assets/texture/characters/guardia/frames/down_2.png" id="5_gr3em"]
+[ext_resource type="Texture2D" uid="uid://kfnwsbr3kwj3" path="res://assets/texture/characters/guardia/frames/left_0.png" id="6_28w6j"]
+[ext_resource type="Texture2D" uid="uid://bgonkybrdp7n3" path="res://assets/texture/characters/guardia/frames/left_1.png" id="7_wcqrw"]
+[ext_resource type="Texture2D" uid="uid://bbkhap4vtbx1e" path="res://assets/texture/characters/guardia/frames/left_2.png" id="8_4ot2g"]
+[ext_resource type="Texture2D" uid="uid://bn7cehen1to1d" path="res://assets/texture/characters/guardia/frames/right_1.png" id="9_kw1q1"]
+[ext_resource type="Texture2D" uid="uid://us6khoxnlw6l" path="res://assets/texture/characters/guardia/frames/right_2.png" id="10_ufcxk"]
+[ext_resource type="Texture2D" uid="uid://csntl68152mxx" path="res://assets/texture/characters/guardia/frames/up_0.png" id="11_h1x2v"]
+[ext_resource type="Texture2D" uid="uid://dio557hlk6l0a" path="res://assets/texture/characters/guardia/frames/up_1.png" id="12_i600t"]
+[ext_resource type="Texture2D" uid="uid://cvd4u587iix1d" path="res://assets/texture/characters/guardia/frames/up_2.png" id="13_y5673"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4lsf6"]
 size = Vector2(13, 19)
@@ -86,11 +87,13 @@ animations = [{
 [node name="Node2D" type="Node2D" unique_id=861206775]
 position = Vector2(157, 74)
 
-[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=378629040]
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1496203089]
+script = ExtResource("1_3gp2t")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=759783224]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=759783224]
 position = Vector2(1.5, 0.5)
 shape = SubResource("RectangleShape2D_4lsf6")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="StaticBody2D" unique_id=566808612]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=566808612]
 sprite_frames = SubResource("SpriteFrames_yys1a")
+animation = &"down"

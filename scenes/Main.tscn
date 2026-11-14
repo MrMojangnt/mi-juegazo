@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://de4hygoquviuw" path="res://scenes/characters/ladron.tscn" id="2_rarhs"]
 [ext_resource type="PackedScene" uid="uid://breaa3ck3spa6" path="res://scenes/level1.tscn" id="2_vcsgt"]
 [ext_resource type="PackedScene" uid="uid://8jfmydu4k7g6" path="res://scenes/characters/guarda.tscn" id="3_vcsgt"]
+[ext_resource type="AudioStream" uid="uid://ly0svc5v23g4" path="res://assets/audio/musica ladron.mp3" id="5_vcsgt"]
 
 [node name="Main" type="Node2D" unique_id=1966021325]
 script = ExtResource("1_0bbpv")
@@ -15,3 +16,8 @@ position = Vector2(240, 86)
 
 [node name="ladron" parent="Level1" unique_id=581063868 instance=ExtResource("2_rarhs")]
 position = Vector2(151, 74)
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1697188700]
+stream = ExtResource("5_vcsgt")
+volume_db = -19.8
+autoplay = true
