@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var speed = 100
+var speed = 5
 @export var player: Node2D
 
 func _physics_process(delta: float) -> void:
